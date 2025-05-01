@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JIREY Racer Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="intro-screen">
+        <h1>GHIMIRE GAMING HUB</h1>
+        <button id="start-game">Start Game</button>
+    </div>
+
+    <div id="game-container" style="display: none;">
+        <div id="game-canvas"></div>
+        <div id="timer">Time Left: <span id="time">30</span> seconds</div>
+        <div id="game-over" style="display: none;">
+            <h2>JIREY_XAKKA Congratulations!</h2>
+            <button id="next-level">Next Level</button>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
